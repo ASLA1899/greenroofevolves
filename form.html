@@ -1,0 +1,173 @@
+<html>
+<head>
+
+<title>ASLA -- Green Roof Project</title>
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link type="text/css" href="css/ui-darkness/jquery-ui-1.8.4.custom.css" rel="stylesheet" />
+
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-size: small;
+	font-weight: bold;
+	
+
+}
+
+
+-->
+</style>
+
+
+	
+	<script type="text/javascript" src="js/ui.core.js"></script>
+	<script type="text/javascript" src="js/ui.datepicker.js"></script>
+
+
+	<script type="text/javascript">
+	$(function() {
+		$("#date").datepicker();
+	});
+	</script>
+
+
+
+
+</head>
+
+<body>
+
+ 
+      <form id="tour" method="post" action="contact.asp">
+        
+      <div class="col1">
+        <p>
+
+        <label>Name: <br>
+          <input name="name" type="text" id="name" size="35" maxlength="150">
+        </label>
+        <span class="required">*Required</span>
+        </p>
+        <p>
+          <label>Title:
+            <br>
+
+            <input name="title" type="text" id="title" size="35" maxlength="150">
+          </label>
+        </p>
+        
+         <p>
+          <label>Professional affiliation, if any (e.g., ASLA, AIA): 
+            <br>
+            <input name="affiliation" type="text" id="affiliation" size="35" maxlength="150">
+          </label>
+        </p>
+
+        <p>
+          <label>Firm/Organization/School:
+            <br>
+            <input name="firm" type="text" id="firm" size="35" maxlength="150">
+          </label>
+        </p>
+        
+         <p>
+          <label>Number of people for tour: 
+            <br>
+            <input name="people" type="text" id="people" size="35" maxlength="150">
+
+          </label>
+        </p>
+        <p>
+          <label>Address:
+            <br>
+            <input name="address" type="text" id="address" size="35" maxlength="150">
+          </label>
+        </p>
+        
+         <p>
+
+          <label>City:
+            <br>
+            <input name="city" type="text" id="city" size="35" maxlength="150">
+          </label>
+        </p>
+        <p>
+          <label>State:
+            <br>
+            <input name="state" type="text" id="state" size="35" maxlength="150">
+          </label>
+
+        </p>
+</div>
+<div class="col2">        
+        
+    <p>
+          <label>Zip:
+            <br>
+            <input name="zip" type="text" id="zip" size="35" maxlength="5">
+          </label>
+        </p>
+        
+        <p>
+          <label>Phone: <br>
+          <input name="phone" type="text" id="zip" size="35" maxlength="150">
+          </label>
+          <span class="required">*Required</span>
+        </p>
+        
+         
+         <p>
+           <label>E-mail Address: <br>
+             <input name="EmailFrom" type="text" id="EmailFrom" size="35" maxlength="150">
+
+           </label>
+           <span class="required">*Required</span>         </p>
+         <p>
+           <label>Please input a date: <br>
+             <input name="date" type="text" id="date" size="35">
+           </label>
+
+           <span class="required">*Required <br>
+          <em style="color:#525252; font-weight:normal;">(Tours are only available on Tuesdays, Wednesdays and Thursdays.)</em></span>
+         </p>
+        <p>
+          <label>
+            Time:<br>
+            <select name="time" id="time">
+
+              <option>10:00 AM</option>
+              <option>11:00 AM</option>
+              <option>12:00 AM</option>
+              <option>1:00 PM</option>
+              <option>2:00 PM</option>
+            </select>
+
+          </label>
+        </p>
+         <p>
+          <label>Comments/Special Requests:
+            <br>
+            <textarea name="comments" type="text" id="comments" cols="35" rows="4" maxlength="150" ></textarea>
+          </label>
+        </p>
+         <p>
+
+           
+           
+           <label>
+             <input type="image" name="submit" id="submit" src="images/submit.jpg">
+           </label>
+         </p>
+        </div><div class="clear"></div>
+      </form>
+
+
+
+</body>
+</html>

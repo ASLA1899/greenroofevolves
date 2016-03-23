@@ -1,0 +1,207 @@
+.nav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 12px;
+	color: #5A5D5F;
+	font-weight: normal;
+
+}
+body {
+	color: 525252;
+}
+
+a.nav:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.nav:hover {
+	text-decoration: underline;
+}
+.body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #525252;
+}
+.subhead {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #004276;
+	font-weight: bold;
+}
+a.body:link {
+	color: AA4521;
+	text-decoration: none;
+}
+
+a.body:hover {
+	text-decoration: underline;
+}
+.formtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+a.body:visited {
+
+	color: AA4521;
+	text-decoration: none;
+}
+a.body:active {
+
+
+	color: AA4521;
+	text-decoration: none;
+}
+a.nav:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.nav:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.firstcol {
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+	color: #333D2F;
+}
+a.firstcol:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.firstcol:hover {
+	text-decoration: underline;
+}
+a.firstcol:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.firstcol:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.quote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #CEA049;
+}
+
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 13px;
+	color: #525252;
+}
+.bullet {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #FAC256;
+}
+.popuptext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 15px;
+	color: 3B3B3B;
+}
+.closewindow {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.closewindow:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.closewindow:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.closewindow:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.closewindow:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.firstcolhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+	color: #365C25;
+	font-weight: bold;
+}
+.caption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 11px;
+	color: 636363;
+}
+a.caption:link {
+
+	color: AA4521;
+	text-decoration: none;
+}
+a.caption:hover {
+
+	text-decoration: underline;
+}
+a.caption:visited {
+
+
+	color: AA4521;
+	text-decoration: none;
+}
+a.caption:active {
+
+
+
+	color: AA4521;
+	text-decoration: none;
+}
+.subhead2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A8FBC;
+	font-weight: bold;
+}
+.month {
+
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #f5992c;
+}
+a:link {
+	color: #AA4521;
+	text-decoration: underline;
+}
+a:visited {
+	color: #AA4521;
+	text-decoration: underline;
+}
+a:hover {
+	color: #AA4521;
+	text-decoration: underline;
+}
+a:active {
+	color: #AA4521;
+	text-decoration: underline;
+}
+.subhead3 {
+	color: #28471a;
+	font: 12px/16px Georgia, "Times New Roman", Times, serif;
+}

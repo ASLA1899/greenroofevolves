@@ -1,0 +1,723 @@
+html {
+	
+}
+
+
+
+/*Document-------------------*/
+body 
+{
+	padding: 0;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 1.0em;
+	margin:0;
+	background:#fff;
+
+	
+}
+
+img {
+	border:none;
+}
+
+div#mainContent
+{
+	width: 100%;
+	
+	
+	overflow:hidden;
+}
+
+img .dodad {
+	width:35px;
+	height:35px;
+}
+
+/*Header -----------------------------*/
+
+.logo-container {
+	width:180px; height:48px; position:absolute; top:22px;
+}
+
+
+
+.logo-container .logo {
+margin:6px 0 0 75px;	
+}
+
+.webby-container {
+	width:312px; height:232px; position:absolute; top:300px; left:100px; background:url(../images/WebbyBanner.png);
+}
+
+.webby-container a:link {
+	width:201px; height:106px; display:block; margin:39px 0 0 42px;
+}
+
+.header {
+position:absolute;
+background:url(../images/EvolvesHeader-01.png) no-repeat;
+width:1500px;
+height:100px;
+top: 85px;
+left: 58px;
+z-index:50;
+}
+
+.header .nav {
+margin:85px 0 0 195px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#525252;
+}
+
+.header .nav a:link,
+.header .nav a:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#525252;
+	text-decoration:none;
+	font-size:12px;
+	padding:0 15px 0 15px;
+}
+
+.header .nav a:hover {
+text-decoration:underline;	
+}
+
+/*Scrollable Content ---------------------------*/
+
+
+#makeMeScrollable
+	{
+		width:100%;
+		position: relative;
+		height:838px;
+	}
+	
+	#makeMeScrollable div.scrollableArea 
+	{
+		position: relative;
+		float: left;
+		margin: 0;
+		padding: 0;
+		
+	}
+
+/* Invisible left hotspot */
+div.scrollingHotSpotLeft
+{
+	/* The hotspots have a minimum width of 100 pixels and if there is room the will grow
+    and occupy 15% of the scrollable area (30% combined). Adjust it to your own taste. */
+	min-width: 75px;
+	width: 5%;
+	height: 860px;
+	/* There is a big background image and it's used to solve some problems I experienced
+    in Internet Explorer 6. */
+	background-image: url(../images/transparent.png);
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	left: 0;
+	/*  The first url is for Firefox and other browsers, the second is for Internet Explorer */
+	cursor: url(../images/cursors/cursor_arrow_left.cur), url(images/cursors/cursor_arrow_left.cur),w-resize;
+}
+
+/* Visible left hotspot */
+div.scrollingHotSpotLeftVisible
+{
+	background-image: url(../images/leftArrowoutline.png);				
+	background-color: none;
+	background-repeat: no-repeat;
+	opacity: 0.40; /* Standard CSS3 opacity setting */
+	-moz-opacity: 0.40; /* Opacity for really old versions of Mozilla Firefox (0.9 or older) */
+	filter: alpha(opacity = 40); /* Opacity for Internet Explorer. */
+	zoom: 1; /* Trigger "hasLayout" in Internet Explorer 6 or older versions */
+}
+
+/* Invisible right hotspot */
+div.scrollingHotSpotRight
+{
+	min-width: 75px;
+	width: 5%;
+	height: 860px;
+	background-image: url(../images/transparent.png);
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	right: 0;
+	cursor: url(../images/cursors/cursor_arrow_right.cur), url(images/cursors/cursor_arrow_right.cur),e-resize;
+}
+
+/* Visible right hotspot */
+div.scrollingHotSpotRightVisible
+{
+	background-image: url(../images/rightArrowoutline.png);
+	background-color: none;
+	background-repeat: no-repeat;
+	opacity: 0.40;
+	filter: alpha(opacity = 40);
+	-moz-opacity: 0.40;
+	zoom: 1;
+	z-index:500;
+}
+
+/* The scroll wrapper is always the same width and height as the containing element (div).
+   Overflow is hidden because you don't want to show all of the scrollable area.
+*/
+div.scrollWrapper
+{
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	height:860px;
+}
+
+div.scrollableArea
+{
+	position: relative;
+	width: auto;
+	height: 860px;
+}
+
+
+/*Loader -------------------------------------*/
+
+.QOverlay {
+	background-color: #fff;
+	z-index: 9999;
+	width:100%;
+}
+
+.QLoader {
+	background-color: #ccc;
+	height: 1px;
+}
+
+.QAmt {
+	color:#eee;
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size:40px;
+	font-weight:bold;
+	line-height:50px;
+	height:50px;
+	width:100px;
+	margin:-60px 0 0 -50px;
+}
+
+
+
+/*Tooltip -------------------------------------*/
+
+.tooltip-rollover {
+
+	cursor:pointer;
+}
+
+/* mouseover state */
+.tooltip-rollover:hover {
+	background-position:0 -44px ;		
+}
+
+/* clicked state */
+.tooltip-rollover:focus {
+	background-position:0 -88px;
+}
+
+/* tooltip styling */
+.tooltip {
+	display:none;
+	border:2px solid #525252;
+	background:url(../images/PopUpTrans_BKGD.png);
+	padding:15px 30px 0px 30px;
+	
+	
+	font-size:11px;
+	color:#fff;
+	position:relative;
+}
+
+.tooltip-webcam {
+	display:none;
+	border:2px solid #525252;
+	background:url(../images/PopUpTrans_BKGD.png);
+	padding:15px 30px 10px 30px;
+	height:55px;
+	
+	font-size:11px;
+	color:#fff;
+	position:relative;
+}
+
+.tooltip-image {
+	display:none;
+	border:2px solid #525252;
+	background:url(../images/PopUpTrans_BKGD.png);
+	padding:15px 15px 10px 15px;
+	font-size:11px;
+	color:#fff;
+	position:relative;
+}
+
+/* a .label element inside tooltip */
+.tooltip h1 {
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 0 15px 0;
+	margin:0;
+}
+
+.tooltip-webcam h1 {
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 0 15px 0;
+	margin:0;
+}
+
+.tooltip h1 a:link,
+.tooltip h1 a:visited {
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 0 15px 0;
+	margin:0;
+	text-decoration:none;
+	
+}
+
+.tooltip h1 a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+
+
+
+.tooltip p {
+	color:#fff;
+	font-size:11px;
+	font-weight:normal;
+	padding:5px 25px 0 0;
+	margin:0;
+	
+}
+
+.tooltip-webcam a:link,
+.tooltip-webcam a:hover,
+.tooltip-webcam a:visited{
+	position:absolute;
+	background:url(../images/ReadMore_BTN.png) no-repeat;
+	width:128px;
+	height:29px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:11px;
+	color:#fff;
+	text-decoration:none;
+	z-index:10;
+	display:block;
+padding:5px 0px 0px 25px;
+}
+
+
+.tooltip-image img {
+
+}
+
+.tooltip-image a:link,
+.tooltip-image a:hover,
+.tooltip-image a:visited{
+	position:absolute;
+	background:url(../images/ReadMore_BTN.png) no-repeat;
+	width:140px;
+	height:29px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:10px;
+	color:#fff;
+	text-decoration:none;
+	z-index:10;
+	display:block;
+	padding:5px 0px 0px 25px;
+	top:80px;
+	left:90px;
+}
+
+
+
+
+
+/*Pop-Up Content ------------------------------*/
+
+div#nyroModalFull {
+	font-size: 12px;
+	color: #777;
+}
+div#nyroModalLoading {
+	border: 4px solid #777;
+	width: 150px;
+	height: 150px;
+	text-indent: -9999em;
+	background: #fff url(../images/Loading.gif) no-repeat;
+	background-position: center;
+}
+div#nyroModalLoading.error {
+	border: 4px solid #f66;
+	line-height: 20px;
+	padding: 20px;
+	width: 300px;
+	height: 100px;
+	text-indent: 0;
+	background: #fff;
+}
+div#nyroModalWrapper {
+	background: #fff;
+	border: 4px solid #525252;
+	width: 800px;
+	height:431px;
+	
+}
+a#closeBut {
+	position: absolute;
+	display: block;
+	top: -21px;
+	right:-21px;
+	width: 34px;
+	height: 34px;
+	text-indent: -9999em;
+	background: url(../images/Close_BTN.png) no-repeat;
+	outline: 0;
+	z-index:100;
+}
+h1#nyroModalTitle {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: -22px;
+	left: 5px;
+	font-size: 12px;
+	color: #ddd;
+}
+
+div.wrapper div#nyroModalContent {
+	height:431px !important;
+	width: 800px !important;
+}
+
+div.wrapper div#nyroModalContent .container {
+width:800px;
+height:431px;
+position:relative;
+
+}
+
+div.wrapper div#nyroModalContent .container-webcam {
+width:800px;
+height:475px;
+position:relative;
+overflow:hidden;
+}
+
+
+div.wrapper div#nyroModalContent .container img {
+	position:absolute;
+	z-index:10;
+}
+
+
+div.wrapper div#nyroModalContent .container .photo-link {
+position:absolute;
+background-image:none;
+z-index:50;
+height:431px;
+width:800px;
+
+}
+
+
+div.wrapper div#nyroModalContent .container .photo-link a:link,
+div.wrapper div#nyroModalContent .container .photo-link a:visited{
+	position:absolute;
+	background:url(../images/PhotoBanner.png) no-repeat;
+	width:331px;
+	height:29px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:10px;
+	color:#fff;
+	text-decoration:none;
+	z-index:10;
+	display:block;
+	padding:7px 0px 0px 25px;
+	top:25px;
+	left:-15px;	
+}
+
+div.wrapper div#nyroModalContent .container .photo-link #download a {
+	color: #fff;
+	background: none;
+	text-decoration: none;
+	position: absolute;
+	font-size: 12px;
+	text-transform: none;
+	padding: 15px 0px 15px 30px;
+	top: 110px;
+}
+
+div.wrapper div#nyroModalContent .container .photo-link #download a:hover {
+	color: #ff6c2f;
+	background: none;
+	text-decoration: underline;
+	position: absolute;
+	font-size: 12px;
+	text-transform: none;
+	padding: 15px 0px 15px 30px;
+	top: 110px;
+}
+
+div.wrapper div#nyroModalContent .container .caption {
+position: absolute;
+width: 800px;
+height: 150px;
+background-color: rgba(0, 0, 0, 0.5); 
+text-decoration: none;
+display: block;
+top: 282px;
+
+}
+
+div.wrapper div#nyroModalContent .container .caption p {
+font-family: Arial, Helvetica. sans-serif;
+font-size: 13px;
+padding: 5px;
+color: #fff;
+text-decoration: none;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.caption a{
+color: #ff6c2f;
+}
+
+
+
+
+div.wrapper div#nyroModalContent .container .text {
+position:absolute;
+background-image:url(../images/PopUpTrans_BKGD.png);
+z-index:50;
+height:350px;
+width:350px;
+
+}
+
+div.wrapper div#nyroModalContent .container .text .links-container {
+position:absolute;
+z-index:100;
+width:800px;
+left:-23px;
+}
+div.wrapper div#nyroModalContent .container .text .links-container .top {
+width:800px;
+height:24px;
+padding:0;
+margin:0;
+background:url(../images/PopUpLinks_TopBKGD.png) no-repeat;
+}
+
+div.wrapper div#nyroModalContent .container .text .links-container .middle {
+width:800px;
+padding:0;
+margin:0;
+background:url(../images/PopUpLinks_middleBKGD.png) repeat-y;
+}
+
+div.wrapper div#nyroModalContent .container .text .links-container .middle p.links{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+padding:0 0 0 45px;
+margin:0;
+text-transform:uppercase;
+color:#fff;
+font-weight:bold;
+}
+
+div.wrapper div#nyroModalContent .container .text .links-container .middle p.links a:link,
+div.wrapper div#nyroModalContent .container .text .links-container .middle p.links a:visited{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#fff;
+font-weight:normal;
+line-height:18px;
+text-transform:none;
+text-decoration:none;
+}
+
+div.wrapper div#nyroModalContent .container .text .links-container .middle p.links a:hover {
+text-decoration:underline;
+}
+
+div.wrapper div#nyroModalContent .container .text .links-container .bottom {
+width:800px;
+height:48px;
+padding:0;
+margin:0;
+background:url(../images/PopUpLinks_bottomBKGD.png) no-repeat;
+}
+
+
+
+
+
+
+
+div.wrapper div#nyroModalContent .text h1 {
+	font-size:24px;
+	font-weight:bold;
+	color:#f26526;
+	margin:0;
+	padding:15px 25px 10px 25px;
+	
+	
+}
+
+div.wrapper div#nyroModalContent .text p {
+	font-size:12px;
+	color:#fff;
+	padding:0 25px 10px 25px;
+	margin:0;
+	line-height:22px;
+}
+
+div.wrapper div#nyroModalContent .text p a:link,
+div.wrapper div#nyroModalContent .text p a:visited,
+div.wrapper div#nyroModalContent .text p a:hover {
+color:#f26526;
+text-decoration:underline;
+}
+
+
+div.wrapper div#nyroModalContent .col1 {
+	width:285px;
+	padding:0 30px 0 0;
+	float:left;
+	
+}
+
+div.wrapper div#nyroModalContent .col2 {
+	width:285px;
+	padding:0;
+	float:left;
+	
+}
+.clear {
+	clear:both;
+}
+
+
+
+.hidden {
+	display: none; width: 800px; height:431px; 
+}
+
+ div.wrapper div#nyroModalContent .form-content-container {
+	background:#fff;
+	width:900px;
+height:550px;
+position:relative;
+ }
+
+ div.wrapper div#nyroModalContent .form-content-container h1{
+	font-size:24px;
+	font-weight:bold;
+	color:#f26526;
+	margin:0;
+	padding:15px 25px 10px 25px; 
+ }
+ 
+ div.wrapper div#nyroModalContent .form-content-container p {
+ font-size:12px;
+	color:#525252;
+	padding:0 25px 10px 25px;
+	margin:0;
+	line-height:15px;}
+
+.hidden-form {
+	display: none; width: 650px; height:550px; 
+}
+
+
+
+.form-container {
+	width:575px;
+	
+}
+
+
+
+.form-container .col1 {
+	width:275px;
+	float:left;
+	padding:0 25px 0 0;
+}
+
+.form-container .col2 {
+	width:275px;
+	float:left;
+}
+
+label {
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#525252;
+}
+
+.textfieldRequiredMsg {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#f26526;
+	font-size:11px;
+}
+
+.textfieldInvalidFormatMsg{ 
+font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#f26526;
+	font-size:11px;
+}
+
+.required {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#f26526;
+	font-size:11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

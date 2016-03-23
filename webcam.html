@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<SCRIPT type="text/javascript">
+<!--
+Count = 0;
+function ImageRefresh() {
+	document.CameraImage.src = "http://asla.viewnetcam.com:60001/SnapshotJPEG?Resolution=800x475&Quality=Standard&Count=" + Count;
+	Count++;
+}
+// -->
+</SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+
+<body style="padding:0; margin:0;">
+<IMG src="http://asla.viewnetcam.com:60001/SnapshotJPEG?Resolution=800x475&Quality=Standard&Count=8052342" name="CameraImage" border="0" width="800" height="475" onload="setTimeout('ImageRefresh()')" onerror="setTimeout('ImageRefresh()', 60000)" onabort="setTimeout('ImageRefresh()', 60000)" style="padding:0; margin:0;">
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>ASLA -- Green Roof Project</title>
+<!-- TemplateEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<script type="text/javascript" src="../js/prototype.js"></script>
+<script type="text/javascript" src="../js/scriptaculous.js"></script>
+<script type="text/javascript" src="../js/effects.js"></script>
+<script type="text/javascript" src="../js/lightbox.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<script src="../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="http://www.asla.org/land/050205/lightbox.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" onLoad="goforit()">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="center">
+<table border="0" cellspacing="0" cellpadding="0" width="828">
+  <tr>
+  <td><a href="http://www.asla.org/land/050205/greenroofcentral.html"><img src="../images/gr_title.jpg" border="0"></a></td>
+  <td valign="top" background="../images/line_vert.gif"><img src="../images/spacer.gif" width="1" height="1"></td>
+  </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="828">
+
+<tr>
+
+<!--first column -->
+
+<td valign="top" bgcolor="#FFFFFF">
+            <table border="0" cellspacing="0" cellpadding="0" width="828">
+              <tr> 
+                <td><img src="../images/spacer.gif" width="15" height="1"></td>
+                <td><img src="../images/spacer.gif" width="798" height="1"></td>
+                <td><img src="../images/spacer.gif" width="15" height="1"></td>
+              </tr>
+             
+              <!-- TemplateBeginEditable name="body" -->
+              <tr> 
+                <td></td>
+                <td><p class="body">content</p></td>
+                <td></td>
+              </tr>
+              <!-- TemplateEndEditable -->
+			  
+            </table></td>
+</tr>
+
+<tr><td colspan="2" align="center" valign="middle"><table border="0" cellspacing="0" cellpadding="0" width="828">
+  <tr><td background="../images/line_horiz_ltgray.gif"><img src="../images/spacer.gif" height="1" width="828"></td></tr>
+  <tr>
+    
+<td align="center" class="footer">American Society of Landscape Architects &nbsp;Copyright 2008. All rights reserved.</td>
+<td><img src="../images/spacer.gif" height="21" width="1"></td>
+  </tr>
+</table></td></tr>
+</table></td>
+   
+</tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-4677685-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script></body>
+</html>
